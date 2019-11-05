@@ -59,3 +59,21 @@
 
 })();
 
+function toggle(anId)
+{
+	node = document.getElementById(anId);
+	if (node.style.visibility=="hidden")
+	{
+		// Contenu pour cacher, 
+		node.style.visibility = "visible";
+				
+	}
+	else
+	{
+		// Contenu pour visibiliter,
+		node.style.visibility = "hidden";
+		
+	}
+}
+
+
